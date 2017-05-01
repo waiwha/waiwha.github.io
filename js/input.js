@@ -1,5 +1,8 @@
 document.getElementById("submit_form").addEventListener("click", sendForm);
 var inputs = ["", "", "", "", "", ""];
+var icons = document.getElementsByClassName("images");
+var d = new Date();
+var correct = "142116";
 
 function updateInputs(){
   inputs[0] = document.getElementById("1_v").innerHTML;
@@ -12,7 +15,14 @@ function updateInputs(){
 setInterval(updateInputs, 1);
 
 function sendForm(){
-  alert(inputs[0]+inputs[1]+inputs[2]+inputs[3]+inputs[4]+inputs[5]+"      ... agreed!");
+  if(inputs[0] == "" || inputs[0] == "" || inputs[0] == "" || inputs[0] == "" || inputs[0] == "" || inputs[0] == "")
+	icons[0].src = "MAYBE.png";
+else{
+  if(inputs[0] != correct[0] || inputs[1] != correct[1] || inputs[2] != correct[2] || inputs[3] != correct[3] || inputs[4] != correct[4] || inputs[5] != correct[5])
+  icons[0].src = "NO.png";
+  else
+     icons[0].src = "YES.png";
+}
 }
 
 function buttonAction(v, o){

@@ -47,6 +47,14 @@ div.low{
 	font-stretch: expanded;
 }
 
+#descrip{
+width: 240px;
+height: 180px;
+font-size: 12px;
+	border-style: dotted;
+border-width:thin;
+}
+
 #timer{
 	height: 25vh;
 	width: 50vw;
