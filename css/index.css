@@ -1,0 +1,52 @@
+div.high{
+	position: relative;
+	display: block;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+}
+
+div.medium{
+	position: fixed;
+}
+
+div.low{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 50px 0px 100px 0px;
+	padding-left: 150px;
+	padding-right: 150px;
+	background-color: transparent;
+}
+
+.number{
+	display: inline-block;
+	position: absolute;
+	font-size: 10px;
+	font-family: Georgia, Serif;
+	margin: 120px 20px 0px 0px;
+}
+
+.cropped{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+
+#title{
+	height: 15vw;
+	width: 100px;
+	font-size: 15vw;
+	text-align: left;
+	opacity: .1;
+	font-stretch: expanded;
+}
+
+#timer{
+	height: 25vh;
+	width: 50vw;
+	font-size: 256px;
+	text-align: right;
+	margin-left: 25vw;
+	margin-top: -25vh;
+}
