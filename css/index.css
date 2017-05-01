@@ -47,13 +47,7 @@ div.low{
 	font-stretch: expanded;
 }
 
-#descrip{
-width: 240px;
-height: 180px;
-font-size: 12px;
-	border-style: dotted;
-border-width:thin;
-}
+
 
 #timer{
 	height: 25vh;
@@ -61,5 +55,13 @@ border-width:thin;
 	font-size: 256px;
 	text-align: right;
 	margin-left: 25vw;
-	margin-top: -25vh;
+	margin-top: -75vh;
+}
+
+#descrip{
+width: 240px;
+height: 180px;
+font-size: 12px;
+	border-style: dotted;
+border-width:thin;
 }
